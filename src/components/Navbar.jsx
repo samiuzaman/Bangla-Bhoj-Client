@@ -17,9 +17,11 @@ import {
   DropdownAction,
   DropdownContent,
   DropdownItem,
+  TooltipArrow,
 } from "keep-react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import Logo from "../assets/logo.png";
+import { ShoppingCart } from "phosphor-react";
 
 const NavbarComponent = () => {
   const navigate = useNavigate();
@@ -41,9 +43,30 @@ const NavbarComponent = () => {
         </NavbarBrand>
         <NavbarList className="space-x-5 dark:text-white">
           <NavLink to="/">Home</NavLink>
+          <NavLink to="/dashboard">Dashboard</NavLink>
+        </NavbarList>
+
+        <NavbarList>
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipAction asChild>
+                <Button variant="softBg" shape="circle">
+                  <ShoppingCart size={20} />
+                </Button>
+              </TooltipAction>
+              <TooltipContent>
+                <TooltipArrow />
+                Item 1
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
         </NavbarList>
 
         <NavbarCollapseBtn />
+        <NavbarCollapse className="bg-primary-25 dark:text-white">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/dashboard">Dashboard</NavLink>
+        </NavbarCollapse>
       </NavbarContainer>
     </Navbar>
   );

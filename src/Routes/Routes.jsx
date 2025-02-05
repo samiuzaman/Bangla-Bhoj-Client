@@ -4,6 +4,8 @@ import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
 
 import SpecialMenu from "../components/HomeLayout/SpecialMenu";
+import Dashboard from "../Pages/Dashboard";
+import Details from "../Pages/Details";
 
 const routes = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const routes = createBrowserRouter([
             element: <SpecialMenu></SpecialMenu>,
           },
         ],
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>,
+      },
+      {
+        path: "/details/:id",
+        element: <Details></Details>,
       },
     ],
   },
