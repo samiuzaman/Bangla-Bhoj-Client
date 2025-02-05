@@ -1,0 +1,132 @@
+[
+  {
+    "id": 859244,
+    "name": "Alu Bharta",
+    "image": "https://i.ibb.co.com/3YWC4Q02/Alu-Bharta.png",
+    "category": "Side Dish",
+    "price": 80,
+    "availability": true,
+    "rating": 4.5,
+    "description": "Alu Bharta is a simple yet flavorful dish that holds a special place in Bengali cuisine. It is made from mashed potatoes, blended with mustard oil, green chilies, and finely chopped onions. The dish is known for its smooth and creamy texture, complemented by the pungent aroma of mustard oil and the heat of green chilies. This traditional side dish is often served with plain rice and dal, enhancing the overall meal experience. Alu Bharta is easy to prepare but carries the essence of Bengali home-cooked comfort food. It is often paired with fried items like Beguni or crispy fried fish to balance out the meal. The use of mustard oil is essential in bringing out the authentic taste, making it distinctly different from other mashed potato dishes. Some variations include adding garlic, dried red chilies, or even boiled eggs for extra flavor. The dish is loved by people of all ages, and it is a staple in both rural and urban households. It is also commonly found in Bengali restaurants, where it is served as part of a traditional thali. Alu Bharta is a must-try dish for those who want to experience the true flavors of Bengal."
+  },
+  {
+    "id": 859245,
+    "name": "Dim Curry",
+    "image": "https://i.ibb.co.com/Gv0m6j8X/Dim-Curry.png",
+    "category": "Egg Dish",
+    "price": 200,
+    "availability": true,
+    "rating": 4.6,
+    "description": "Dim Curry, also known as Bengali Egg Curry, is a delicious and wholesome dish that is loved by people across Bengal. It is made with hard-boiled eggs that are lightly fried and then cooked in a spicy, flavorful tomato-based gravy. The dish is rich in taste and has a perfect balance of spice, tanginess, and a hint of sweetness from caramelized onions. The key ingredients include onions, garlic, tomatoes, ginger, and a blend of Bengali spices such as cumin, coriander, turmeric, and garam masala. The eggs absorb the flavors of the gravy, making them incredibly tasty. Dim Curry is often served with steamed rice, roti, or paratha, making it a versatile dish that can be enjoyed for lunch or dinner. Some variations include adding potatoes, which enhance the taste and make the dish more filling. The slow-cooked process allows the flavors to blend perfectly, resulting in a rich and aromatic curry. This dish is a favorite among egg lovers and is a common item in Bengali households. It is easy to prepare yet full of flavors, making it a go-to dish for special occasions and everyday meals alike."
+  },
+  {
+    "id": 859247,
+    "name": "Shorshe Ilish",
+    "image": "https://i.ibb.co.com/b56FLhJ3/Shorshe-Ilish.jpg",
+    "category": "Fish",
+    "price": 500,
+    "availability": true,
+    "rating": 4.9,
+    "description": "Shorshe Ilish is one of the most iconic dishes in Bengali cuisine, loved for its rich mustard-based gravy and tender pieces of Hilsa fish. The dish is prepared by marinating the Ilish (Hilsa) fish with turmeric and salt before frying it lightly. The gravy is made with a generous amount of mustard paste, mustard oil, green chilies, and minimal spices to retain the authentic taste of the fish. The pungent aroma of mustard enhances the flavor of the fish, creating a perfect balance of spice and richness. Shorshe Ilish is best served with plain white rice, allowing the flavors of the mustard sauce to be fully appreciated. This dish is a staple during Bengali festivals, especially Pohela Boishakh and special family gatherings. It is often cooked in a traditional earthen pot to enhance its flavor. Some variations include adding coconut milk to reduce the mustard’s sharpness and create a creamier texture. The dish not only represents the culinary heritage of Bengal but also reflects the deep cultural connection Bengalis have with Hilsa fish, often called the 'King of Fish' in Bangladesh and West Bengal."
+  },
+  {
+    "id": 859248,
+    "name": "Begun Bharta",
+    "image": "https://i.ibb.co.com/SDd1WCyq/Begun-Bharta.jpg",
+    "category": "Side Dish",
+    "price": 90,
+    "availability": true,
+    "rating": 4.6,
+    "description": "Begun Bharta is a delicious and smoky-flavored mashed eggplant dish that is widely popular in Bengali households. It is prepared by roasting whole eggplants over an open flame until the skin is charred and the inside becomes soft. The roasted eggplant is then peeled and mashed with mustard oil, garlic, green chilies, and salt. This method gives the dish a distinct smoky aroma, making it a flavorful side dish that pairs well with plain rice and dal. Some variations include adding finely chopped onions and coriander leaves for an extra layer of freshness. Begun Bharta is not only tasty but also nutritious, as eggplants are rich in fiber, antioxidants, and essential vitamins. In many Bengali homes, this dish is served as part of a traditional lunch, where its simplicity and bold flavors create a comforting meal. The smoky aroma combined with the pungency of mustard oil makes it a favorite among those who appreciate authentic Bengali flavors. This dish is an example of how minimal ingredients can create a dish full of depth and character, making it an essential part of Bengali cuisine."
+  },
+  {
+    "id": 859249,
+    "name": "Chingri Malai Curry",
+    "image": "https://i.ibb.co.com/R1YvvKP/Chingri-Malai-Curry.png",
+    "category": "Seafood",
+    "price": 450,
+    "availability": true,
+    "rating": 4.8,
+    "description": "Chingri Malai Curry is a luxurious Bengali dish made with large prawns cooked in a rich, creamy coconut milk-based gravy. The prawns are first lightly fried in mustard oil to enhance their flavor, then slow-cooked with a blend of aromatic spices, coconut milk, and a hint of garam masala. The use of coconut milk gives the dish a mild sweetness that perfectly balances the spiciness of the curry. The dish is traditionally served with steamed basmati rice, which absorbs the delicious flavors of the gravy. Chingri Malai Curry is often prepared during special occasions like weddings and festive celebrations, as it represents indulgence and Bengali hospitality. Some variations include adding cashew paste to make the gravy even richer. The prawns, often called 'Golda Chingri' (giant freshwater prawns), are the highlight of the dish, offering a succulent texture that melts in the mouth. The combination of mustard oil, coconut, and fresh spices makes this dish an unforgettable experience for seafood lovers. It remains one of the most beloved dishes in Bengali cuisine, showcasing the perfect balance of flavors and culinary excellence."
+  },
+  {
+    "id": 859250,
+    "name": "Panta Bhat with Fried Hilsa",
+    "image": "https://i.ibb.co.com/1Gnz8FHQ/Panta-Bhat-with-Fried.jpg",
+    "category": "Traditional",
+    "price": 220,
+    "availability": true,
+    "rating": 4.7,
+    "description": "Panta Bhat is a traditional Bengali dish that holds deep cultural significance. It consists of leftover rice soaked overnight in water, which ferments slightly to develop a unique sour taste. This dish is often enjoyed with fried hilsa fish, green chilies, raw onions, and a pinch of salt. The fermentation process not only enhances the flavor but also makes the rice easier to digest, providing a cooling effect on hot summer days. Panta Bhat is particularly popular in rural Bangladesh, where it is consumed as a refreshing breakfast or lunch option. It is known for its probiotic properties and is often associated with simplicity and nostalgia. During Pohela Boishakh, Bengalis celebrate the New Year with a plate of Panta Bhat, fried hilsa, and various side dishes. Some variations include adding mustard oil, pickles, or mashed vegetables to enhance the taste. The combination of crispy fried hilsa and soft fermented rice creates a contrast in textures that is deeply satisfying. This dish is not just about taste but also about tradition, representing a connection to Bengal’s agrarian roots and cultural heritage."
+  },
+  {
+    "id": 859251,
+    "name": "Shutki Bhuna",
+    "image": "https://i.ibb.co.com/xqrPMMLF/Shutki-Bhuna.jpg",
+    "category": "Traditional",
+    "price": 280,
+    "availability": false,
+    "rating": 4.5,
+    "description": "Shutki Bhuna is a bold and flavorful dish made from dried fish, a delicacy in Bengali cuisine. The dish is prepared by stir-frying dried fish with onions, garlic, tomatoes, and green chilies, creating a rich and aromatic curry. The strong, pungent aroma of shutki (dried fish) may not be for everyone, but those who love it consider it an irreplaceable part of Bengali cuisine. The key to a great Shutki Bhuna lies in balancing the intense flavor of the dried fish with the right combination of spices. The dish is often paired with plain rice, as the strong flavors complement the simplicity of steamed rice. Some variations include adding potatoes or eggplants to soften the dish’s intensity. Shutki Bhuna is highly nutritious, being rich in protein and essential vitamins. It is especially popular in coastal regions of Bangladesh, where dried fish is a staple ingredient. While it may not be an everyday meal for everyone, it is a cherished dish for those who appreciate the deep, umami-packed flavors of dried fish cooked with traditional Bengali spices."
+  },
+  {
+    "id": 859252,
+    "name": "Dal Puri",
+    "image": "https://i.ibb.co.com/tT4nw6VT/Dal-Puri.png",
+    "category": "Snacks",
+    "price": 100,
+    "availability": true,
+    "rating": 4.6,
+    "description": "Dal Puri is a crispy and savory Bengali snack that is enjoyed by people of all ages. It is a deep-fried flatbread stuffed with a spiced lentil filling, typically made from chholar dal (Bengal gram). The puri dough is made with flour, water, and a pinch of salt, ensuring a light and crispy texture when fried. The lentil filling is seasoned with turmeric, cumin, and green chilies, adding a mild yet flavorful taste. Dal Puri is commonly served with aloo tarkari (potato curry) or chutney, making it a complete meal or snack. This dish is particularly popular during winter, as it provides warmth and comfort. Street food vendors across Bangladesh and West Bengal sell Dal Puri, making it a convenient and tasty option for people on the go. Some variations include adding crushed peanuts or grated coconut to the filling for extra texture and flavor. Whether enjoyed as a breakfast dish or an evening snack, Dal Puri is a classic example of Bengali comfort food that combines crispy texture with delicious spiced lentils."
+  },
+  {
+    "id": 859253,
+    "name": "Kosha Mangsho",
+    "image": "https://i.ibb.co.com/dCkYR2d/Kosha-Mangsho.webp",
+    "category": "Meat",
+    "price": 350,
+    "availability": true,
+    "rating": 4.8,
+    "description": "Kosha Mangsho is a rich and flavorful Bengali mutton curry that is slow-cooked with a blend of aromatic spices. The dish is known for its deep, reddish-brown color and thick, spicy gravy, achieved by slow-cooking the mutton with onions, tomatoes, garlic, and ginger. Traditionally, the cooking process takes time, allowing the meat to become tender and absorb the rich flavors of the spices. The use of mustard oil adds an extra layer of depth to the dish, making it uniquely Bengali. Kosha Mangsho is best served with plain rice, luchi, or paratha, making it a perfect dish for festive occasions and family gatherings. The slow-cooked process caramelizes the onions, giving the dish a natural sweetness that balances the heat from the spices. Some variations include adding potatoes, which soak up the delicious gravy and enhance the dish’s richness. Kosha Mangsho is a must-try for meat lovers, offering a bold and satisfying taste that reflects the essence of Bengali cuisine. Whether enjoyed at home or in a restaurant, this dish remains a favorite among those who appreciate slow-cooked, spice-infused flavors."
+  },
+  {
+    "id": 859254,
+    "name": "Pati Shapta",
+    "image": "https://i.ibb.co.com/CpFhPfQk/Pati-Shapta.jpg",
+    "category": "Dessert",
+    "price": 150,
+    "availability": true,
+    "rating": 4.7,
+    "description": "Pati Shapta is a classic Bengali dessert that consists of thin, crepe-like pancakes filled with a delicious mixture of grated coconut, khoya (reduced milk), and jaggery. The batter is made with rice flour, all-purpose flour, and a touch of semolina to achieve a light yet crispy texture. The filling is rich, sweet, and slightly caramelized due to the use of jaggery, which enhances its flavor. Pati Shapta is traditionally prepared during the winter months, especially during Makar Sankranti and Poush Parbon, when freshly harvested date palm jaggery is available. The crepes are cooked on a flat griddle until golden brown and then rolled with the sweet filling inside. Some variations include using condensed milk or adding cardamom for extra aroma. This dessert is often served warm, accompanied by a drizzle of liquid jaggery or a dollop of thickened milk. The soft, melt-in-the-mouth texture combined with the rich coconut filling makes Pati Shapta a delightful treat for those with a sweet tooth. It is a must-try Bengali delicacy that showcases the region’s love for traditional sweets."
+  },
+  {
+    "id": 859255,
+    "name": "Basanti Pulao",
+    "image": "https://i.ibb.co.com/kfxGb1m/Basanti-Pulao.webp",
+    "category": "Rice Dish",
+    "price": 250,
+    "availability": true,
+    "rating": 4.6,
+    "description": "Basanti Pulao is a fragrant and mildly sweet Bengali rice dish made with aromatic gobindobhog rice, saffron, and whole spices. The dish gets its signature golden-yellow color from turmeric or saffron and is cooked with ghee, making it rich and flavorful. It is often served with Kosha Mangsho or Chicken Rezala, as the mild sweetness of the pulao balances the spiciness of the curries. The addition of cashews and raisins enhances the texture, providing a slight crunch and a burst of sweetness in every bite. This dish is commonly prepared during festivals, weddings, and special occasions, symbolizing celebration and indulgence. The secret to a perfect Basanti Pulao lies in slow-cooking the rice to achieve the right level of fluffiness while ensuring that each grain is coated in ghee and saffron. Some variations include adding bay leaves and whole garam masala for a deeper aroma. Whether enjoyed on its own or paired with a meat dish, Basanti Pulao is a beloved part of Bengali cuisine that brings warmth and comfort to every meal."
+  },
+  {
+    "id": 859256,
+    "name": "Chitol Macher Muitha",
+    "image": "https://i.ibb.co.com/whbfrm77/Chitol-Macher-Muitha.jpg",
+    "category": "Fish",
+    "price": 320,
+    "availability": true,
+    "rating": 4.5,
+    "description": "Chitol Macher Muitha is a unique Bengali fish dish where boneless Chitol fish is shaped into dumplings and cooked in a rich, flavorful curry. The preparation begins by carefully deboning the fish and mashing it into a smooth paste, which is then mixed with spices and boiled to form firm dumplings. These fish dumplings, or 'muitha,' are then lightly fried and simmered in a thick tomato and onion-based gravy. The dish has a delicate texture, with the dumplings absorbing the aromatic spices of the curry, making each bite deeply satisfying. Chitol Macher Muitha is considered a delicacy in Bengali cuisine and is often prepared for special occasions or family gatherings. It is best enjoyed with plain rice, allowing the flavors of the curry to shine through. Some variations include adding potatoes or using mustard paste for a tangier flavor. The dish requires patience and skill to prepare but rewards with a taste that is uniquely rich and deeply rooted in Bengali culinary traditions. Those who love traditional fish dishes will find Chitol Macher Muitha a delightful and memorable experience."
+  },
+  {
+    "id": 859257,
+    "name": "Labra",
+    "image": "https://i.ibb.co.com/dsnT8NcV/labra-recipe-2-640x469.jpg",
+    "category": "Vegetarian",
+    "price": 180,
+    "availability": true,
+    "rating": 4.4,
+    "description": "Labra is a traditional Bengali mixed vegetable dish that is commonly prepared during religious festivals and family gatherings. It is made using a variety of seasonal vegetables such as pumpkin, eggplant, radish, and beans, cooked together with mustard seeds, panch phoron (Bengali five-spice), and a hint of turmeric. The slow-cooked process allows the flavors of different vegetables to blend harmoniously, creating a naturally sweet and savory dish. Unlike other vegetable curries, Labra has a soft and mushy texture, making it an excellent side dish for plain rice and dal. It is often served as part of a larger vegetarian meal, especially during Durga Puja and other religious occasions. The simplicity of Labra lies in its use of minimal spices, allowing the natural taste of the vegetables to shine. Some variations include adding coconut or a spoonful of ghee for extra richness. This dish is not only delicious but also highly nutritious, providing essential vitamins and fiber. For those looking to experience authentic Bengali vegetarian cuisine, Labra is a perfect choice that embodies the warmth and comfort of home-cooked food."
+  }
+]
