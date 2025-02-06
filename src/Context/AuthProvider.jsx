@@ -1,17 +1,17 @@
-import {
-  GoogleAuthProvider,
-  TwitterAuthProvider,
-  createUserWithEmailAndPassword,
-  onAuthStateChanged,
-  signInWithEmailAndPassword,
-  signInWithPopup,
-  signOut,
-  updateProfile,
-  sendPasswordResetEmail,
-} from "firebase/auth";
-import auth from "../Firebase/firebase.init";
+// import {
+//   GoogleAuthProvider,
+//   TwitterAuthProvider,
+//   createUserWithEmailAndPassword,
+//   onAuthStateChanged,
+//   signInWithEmailAndPassword,
+//   signInWithPopup,
+//   signOut,
+//   updateProfile,
+//   sendPasswordResetEmail,
+// } from "firebase/auth";
+// import auth from "../Firebase/firebase.init";
 import { createContext, useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 export const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {

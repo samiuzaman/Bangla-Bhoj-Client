@@ -15,8 +15,8 @@ const SpecialMenu = () => {
   };
 
   return (
-    <div className="w-11/12 lg:w-5/6 mx-auto my-12">
-      <div>
+    <div className="w-11/12 lg:w-5/6 mx-auto ">
+      <div className="py-8">
         <Title title="Our Specials Menu" subTitel="Sub Title"></Title>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto justify-items-center gap-8">
