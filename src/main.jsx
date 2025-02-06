@@ -9,11 +9,11 @@ import StoreData from "./Context/StoreData";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <StoreData>
-      <HelmetProvider>
+    <HelmetProvider>
+      <StoreData>
         <RouterProvider router={routes}></RouterProvider>
-        <ToastWrapper richColors={true} />
-      </HelmetProvider>
-    </StoreData>
+      </StoreData>
+      <ToastWrapper richColors={true} />
+    </HelmetProvider>
   </StrictMode>
 );

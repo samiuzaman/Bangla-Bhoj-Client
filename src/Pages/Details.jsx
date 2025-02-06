@@ -3,7 +3,7 @@ import Rating from "react-rating";
 import { useContext, useEffect, useState } from "react";
 import { FaRegHeart, FaStar } from "react-icons/fa";
 import { useParams } from "react-router-dom";
-import { Button } from "keep-react";
+import { Button, toast } from "keep-react";
 import { ShoppingCart } from "phosphor-react";
 import { storeContext } from "../Context/StoreData";
 
@@ -32,7 +32,24 @@ const Details = () => {
     description,
   } = details;
 
- 
+  const handleAddToCart = (item) => {
+    const alreadyExist = cart.find((menu) => menu._id === item._id);
+    if (alreadyExist) {
+      return toast.error("Item already exist in cart");
+    } else {
+      setCart([...cart, item]);
+      toast.success("Added Item in Cart");
+    }
+  };
+  const handleAddToWishList = (item) => {
+    const alreadyExist = wishlist.find((menu) => menu._id === item._id);
+    if (alreadyExist) {
+      return toast.error("Item already exist in wishlist");
+    } else {
+      setWishlist([...wishlist, item]);
+      toast.success("Added Item in Wishlist");
+    }
+  };
 
   return (
     <div className="w-11/12 lg:w-4/5 mx-auto py-10 ">
@@ -67,13 +84,20 @@ const Details = () => {
             </span>
           </p>
           <div className="space-x-2">
-            <Button
-              onClick={() => handleAddToCart(details)}
-              className="bg-[#CC3333] disabled:bg-[#9b1e1e]"
-            >
-              <ShoppingCart size={18} className="mr-1.5" />
-              Add to cart
-            </Button>
+            {availability ? (
+              <Button
+                onClick={() => handleAddToCart(details)}
+                className="bg-[#CC3333] "
+              >
+                <ShoppingCart size={18} className="mr-1.5" />
+                Add to cart
+              </Button>
+            ) : (
+              <Button disabled className=" disabled:bg-[#9b1e1e]">
+                <ShoppingCart size={18} className="mr-1.5" />
+                Add to cart
+              </Button>
+            )}
             <Button
               onClick={() => handleAddToWishList(details)}
               className="bg-[#CC3333]"
