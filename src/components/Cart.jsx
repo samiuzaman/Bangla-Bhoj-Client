@@ -10,7 +10,6 @@ const Cart = () => {
 
   const handleDeleteToCart = (item) => {
     const filterItem = cart.filter((menu) => menu._id !== item);
-    console.log("Filter Item: ", filterItem);
     setCart(filterItem);
   };
 
@@ -27,7 +26,7 @@ const Cart = () => {
   console.log("Cart section: ", cart);
   return (
     <div className="my-6">
-      <h4 className="mb-2">{cart.length} Courses in Cart</h4>
+      <h4 className="mb-2 pl-2">{cart.length} Item in Cart</h4>
       <div className="space-y-3">
         {cart?.map((item) => (
           <div
