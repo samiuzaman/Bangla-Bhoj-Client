@@ -27,7 +27,7 @@ export default function Carousel() {
   //   backgroundRepeat: "no-repeat",
   // };
   return (
-    <div className="bg-[#FEF5EE]">
+    <div className="bg-banner bg-center bg-no-repeat bg-cover backdrop-blur-lg">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
