@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Outlet } from "react-router-dom";
 import Carousel from "../components/HomeLayout/Carousel";
+import Category from "../components/Category";
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       </Helmet>
       <div className="dark:bg-metal-800">
         <Carousel></Carousel>
+        <Category></Category>
         <Outlet></Outlet>
       </div>
     </div>

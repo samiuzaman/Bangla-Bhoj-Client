@@ -6,7 +6,7 @@ import Home from "../Pages/Home";
 import SpecialMenu from "../components/HomeLayout/SpecialMenu";
 import Dashboard from "../Pages/Dashboard";
 import Details from "../Pages/Details";
-
+import AllMenu from "../Pages/AllMenu";
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +22,10 @@ const routes = createBrowserRouter([
             element: <SpecialMenu></SpecialMenu>,
           },
         ],
+      },
+      {
+        path: "/all-menu",
+        element: <AllMenu></AllMenu>,
       },
       {
         path: "/dashboard",

@@ -30,7 +30,7 @@ const Slide = ({ image, off, title, text, id }) => {
         <div className="px-6 lg:px-8">
           <img className="w-80 h-80" src={image} />
           <img
-            className="absolute top-96 right-62 md:bottom-24  md:right-52 lg:top-80 lg:right-52  w-52 h-52 "
+            className="absolute top-96 right-62 md:bottom-24  md:right-52 lg:top-80 lg:right-52  w-44 h-44 "
             src={off}
           />
         </div>

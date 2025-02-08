@@ -43,6 +43,7 @@ const NavbarComponent = () => {
         </NavbarBrand>
         <NavbarList className="space-x-5 dark:text-white">
           <NavLink to="/">Home</NavLink>
+          <NavLink to="/all-menu">All Menu</NavLink>
           <NavLink to="/dashboard">Dashboard</NavLink>
         </NavbarList>
 
@@ -65,6 +66,7 @@ const NavbarComponent = () => {
         <NavbarCollapseBtn />
         <NavbarCollapse className="bg-primary-25 dark:text-white">
           <NavLink to="/">Home</NavLink>
+          <NavLink to="/all-menu">All Menu</NavLink>
           <NavLink to="/dashboard">Dashboard</NavLink>
         </NavbarCollapse>
       </NavbarContainer>
