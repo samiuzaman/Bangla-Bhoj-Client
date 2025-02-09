@@ -66,6 +66,7 @@ const Details = () => {
               emptySymbol={<FaStar className="text-metal-500" />}
               fullSymbol={<FaStar className="text-warning-500" />}
             ></Rating>
+            <span> {rating}</span>
           </div>
           <p className="text-metal-700">
             Price: <span className="font-medium">{price} TK</span>
