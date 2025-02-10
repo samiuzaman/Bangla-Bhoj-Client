@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import { Button, toast } from "keep-react";
 import { ShoppingCart } from "phosphor-react";
 import { storeContext } from "../Context/StoreData";
+import { Helmet } from "react-helmet-async";
 
 const Details = () => {
   const { id } = useParams();
@@ -53,6 +54,10 @@ const Details = () => {
 
   return (
     <div className="w-11/12 lg:w-4/5 mx-auto py-10 ">
+      <Helmet>
+        <title>Details | Bangla Bhoj</title>
+        <link rel="canonical" href="/" />
+      </Helmet>
       <div className="flex flex-col lg:flex-row justify-around items-center gap-8">
         <div className="w-full lg:w-1/2 h-96 bg-[#dcdde1] rounded-lg">
           <img className="lg:max-w-lg h-full mx-auto" src={image} />

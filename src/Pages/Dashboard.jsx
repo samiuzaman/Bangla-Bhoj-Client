@@ -16,10 +16,15 @@ import {
 import { FaRegHeart } from "react-icons/fa";
 import Cart from "../components/Cart";
 import Wishlist from "../components/Wishlist";
+import { Helmet } from "react-helmet-async";
 
 const Dashboard = () => {
   return (
     <div className="w-11/12 lg:w-4/5 mx-auto mt-6">
+      <Helmet>
+        <title>Dashboard | Bangla Bhoj</title>
+        <link rel="canonical" href="/" />
+      </Helmet>
       <Tabs variant="underline" defaultValue="1" className="">
         <TabsList>
           <TabsItem value="1">

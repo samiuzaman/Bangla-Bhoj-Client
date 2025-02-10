@@ -14,33 +14,9 @@ import { Envelope } from "phosphor-react";
 
 const Footer = () => {
   return (
-    <div className={`xl:px-[6%] bg-metal-200 dark:bg-metal-900 shadow-small `}>
+    <div className={`xl:px-[6%] bg-[#292929] dark:bg-metal-900 shadow-small `}>
       <div className="mx-auto lg:px-20 px-6 py-10 2xl:px-0">
         <div className="flex flex-col gap-12 lg:flex-row">
-          <footer className="w-full md:w-3/4 lg:w-1/2 mx-auto space-y-3">
-            <h4 className="text-xl lg:text-2xl text-error-400 font-semibold">
-              Bangla Bhoj
-            </h4>
-            <h2>Subscribe Our NewsLetter</h2>
-            <div>
-              <fieldset className="relative w-full lg:w-72  ">
-                <ButtonGroup>
-                  <Input
-                    placeholder="Enter email"
-                    className="ps-11 border-[#FC601D] outline-[#FC601D]"
-                  />
-                  <InputIcon>
-                    <Envelope size={19} color="#AFBACA" />
-                  </InputIcon>
-
-                  <Button className="bg-[#FC601D] absolute right-1">
-                    Submit
-                  </Button>
-                </ButtonGroup>
-              </fieldset>
-            </div>
-          </footer>
-
           <div className="w-full md:w-3/4 lg:w-1/2 mx-auto space-y-3">
             <h4 className="mb-3 text-body-3 text-xl font-semibold text-metal-900 dark:text-white">
               Contact
@@ -116,6 +92,34 @@ const Footer = () => {
                 <li>Quiz</li>
                 <li>Community</li>
               </ul>
+            </footer>
+            <footer className="w-full md:w-3/4 lg:w-1/2 mx-auto space-y-3">
+              <h4
+                className={`mb-3 text-body-3 text-xl font-semibold text-white dark:text-white `}
+              >
+                Subscribe
+              </h4>
+              <p>
+                Subscribe to our newsletter and never miss out on exclusive
+                discounts, special offers, and the latest updates from Bangla
+                Bhoj
+              </p>
+              <div>
+                <fieldset className="relative w-full lg:w-72  ">
+                  <ButtonGroup>
+                    <input
+                      className="border-none outline-none py-2 pl-2 rounded-l-md border-[#CC3333]"
+                      placeholder="Enter Your Email"
+                    />
+                    <Button
+                      position="end"
+                      className="bg-[#CC3333] hover:bg-metal-600"
+                    >
+                      Subscribe
+                    </Button>
+                  </ButtonGroup>
+                </fieldset>
+              </div>
             </footer>
           </div>
         </div>

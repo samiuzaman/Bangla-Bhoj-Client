@@ -3,6 +3,7 @@ import { Button } from "keep-react";
 import { Link } from "react-router-dom";
 
 const Slide = ({ image, off, title, text, id }) => {
+  console.log("Home: ", id);
   return (
     <div className="w-full bg-bannerBg bg-center bg-cover h-[38rem] ">
       <div className="flex flex-col lg:flex-row items-center justify-evenly w-full h-full mt-8">
@@ -21,16 +22,11 @@ const Slide = ({ image, off, title, text, id }) => {
           </Link>
         </div>
         <br />
-        {/* <Link
-            to="/add-job"
-            className="w-full px-5 py-4 mt-4 text-sm font-medium text-white capitalize transition-colors duration-300 transform bg-gray-600 rounded-md lg:w-auto hover:bg-gray-500 focus:outline-none focus:bg-gray-500"
-          >
-            Post Job & Hire Expert
-          </Link> */}
+        
         <div className="px-6 lg:px-8">
           <img className="w-80 h-80" src={image} />
           <img
-            className="absolute top-96 right-62 md:bottom-24  md:right-52 lg:top-80 lg:right-52  w-44 h-44 "
+            className="absolute top-96 right-62 md:bottom-24  md:right-52 lg:top-80 lg:right-52  w-36 h-36 "
             src={off}
           />
         </div>

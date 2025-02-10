@@ -3,12 +3,11 @@ import { Outlet } from "react-router-dom";
 import Carousel from "../components/HomeLayout/Carousel";
 import Category from "../components/Category";
 
-
 const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Home | Tutor World</title>
+        <title>Home | Bangla Bhoj</title>
         <link rel="canonical" href="/" />
       </Helmet>
       <div className="dark:bg-metal-800">
