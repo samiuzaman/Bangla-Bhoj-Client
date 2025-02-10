@@ -30,20 +30,7 @@ const CardItem = ({ data }) => {
               {description.substring(0, 92)}...
             </CardDescription>
 
-            <div className="flex lg:flex-col xl:flex-row justify-between items-center gap-2 ">
-              <span className="text-error-500 font-medium">
-                Price: {price} TK
-              </span>
-              <span className="flex  items-center gap-1">
-                <span className="text-metal-600">({rating})</span>
-                <Rating
-                  initialRating={rating}
-                  readonly={true}
-                  emptySymbol={<FaStar className="text-metal-500" />}
-                  fullSymbol={<FaStar className="text-warning-500" />}
-                ></Rating>
-              </span>
-            </div>
+            <p className="text-error-500 font-medium">Price: {price} TK</p>
           </CardContent>
         </Link>
       </Card>

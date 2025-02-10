@@ -64,7 +64,7 @@ export default function Carousel() {
             image={bgimg3}
             off={Off25}
             title="Spice up your meal with our delicious Dim Curry—rich, flavorful cooked!"
-            text="Order now and enjoy a 15% discount!"
+            text="Order now and enjoy a 25% discount!"
             id="67a6ebce1777b7eb78c93fd5"
           />
         </SwiperSlide>
