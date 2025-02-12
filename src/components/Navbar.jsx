@@ -31,11 +31,7 @@ const NavbarComponent = () => {
 
   return (
     <Navbar
-      className={`w-full  top-0 z-30 px-[2%] lg:px-[7%] rounded-none  ${
-        location?.pathname === "/"
-          ? "bg-opacity-15 border-none fixed"
-          : "sticky top-0"
-      }`}
+      className={`w-full sticky top-0 z-30 px-[2%] lg:px-[7%] rounded-none border-none bg-opacity-55`}
     >
       <NavbarContainer className="mx-auto p-2 md:p-0 ">
         <NavbarBrand>

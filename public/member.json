@@ -1,0 +1,20 @@
+[
+  {
+    "image": "https://cafeu-nextjs.netlify.app/img/team/2.png",
+    "name": "Rahim Ahmed",
+    "role": "Head Chef",
+    "description": "With over 15 years of experience, Chef Rahim specializes in traditional Bengali cuisine, bringing authentic flavors and innovative dishes to Bangla Bhoj."
+  },
+  {
+    "image": "https://cafeu-nextjs.netlify.app/img/team/1.png",
+    "name": "Nazma Khatun",
+    "role": "Pastry Chef",
+    "description": "A dessert expert with a passion for sweets, Chef Nazma creates mouthwatering traditional Bengali sweets and fusion desserts that delight every customer."
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?q=80&w=1987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "Karim Hossain",
+    "role": "Sous Chef",
+    "description": "With a deep knowledge of spices and cooking techniques, Chef Karim ensures that every dish maintains its rich taste and perfect presentation."
+  }
+]

@@ -26,92 +26,87 @@ const Footer = () => {
             </div>
 
             <p className="text-metal-200 mb-2 dark:text-metal-300">
-              484 Trevor Junctions, Hettieport-17316, Columbia, USA
+              Salna - Joydebpur Rd, Gazipur-1707, Bangladesh
             </p>
             <p className="flex items-center gap-2 text-metal-200 mb-2 dark:text-metal-300">
               <FaPhone />
-              16784518001
+              +8801517305698
             </p>
             <p className="flex items-center gap-2 text-metal-200 dark:text-metal-300">
               <FaEnvelope />
-              info@tutorworld.com
+              info@bangla-bhoj.com
             </p>
           </div>
 
-          <div className="w-full lg:w-1/2 mx-auto flex justify-between gap-6 md:justify-aroundq">
-            <footer>
-              <h4
-                className={`mb-3 text-body-3 text-xl font-semibold text-white`}
+          <footer>
+            <h4 className={`mb-3 text-body-3 text-xl font-semibold text-white`}>
+              Social Media
+            </h4>
+            <ul className="grid grid-cols-2 lg:grid-cols-1 gap-3 text-body-3 font-normal text-metal-200  dark:text-metal-300">
+              <Link
+                to="https://www.facebook.com/"
+                className="flex items-center gap-2 hover:text-error-400 hover:underline"
               >
-                Social Media
-              </h4>
-              <ul className="flex flex-col gap-3 text-body-3 font-normal text-metal-200  dark:text-metal-300">
-                <Link
-                  to="https://www.facebook.com/"
-                  className="flex items-center gap-2 hover:text-error-400 hover:underline"
-                >
-                  <FaFacebook />
-                  Facebook
-                </Link>
-                <Link
-                  to="https://www.facebook.com/"
-                  className="flex items-center gap-2 hover:text-error-400 hover:underline"
-                >
-                  <FaInstagram />
-                  Facebook
-                </Link>
-                <Link
-                  to="https://www.linkedin.com/"
-                  className="flex items-center gap-2 hover:text-error-400 hover:underline"
-                >
-                  <FaLinkedin />
-                  LinkedIn
-                </Link>
-                <Link
-                  to="https://x.com/"
-                  className="flex items-center gap-2 hover:text-error-400 hover:underline"
-                >
-                  <FaTwitter />
-                  Twitter
-                </Link>
-                <Link
-                  to="https://youtube.com/"
-                  className="flex items-center gap-2 hover:text-error-400 hover:underline"
-                >
-                  <FaYoutube />
-                  Youtube
-                </Link>
-              </ul>
-            </footer>
-
-            <footer className="w-full md:w-3/4 lg:w-1/2 mx-auto space-y-3">
-              <h4
-                className={`mb-3 text-body-3 text-xl font-semibold text-white dark:text-white `}
+                <FaFacebook />
+                Facebook
+              </Link>
+              <Link
+                to="https://www.facebook.com/"
+                className="flex items-center gap-2 hover:text-error-400 hover:underline"
               >
-                Subscribe
-              </h4>
-              <p className="text-metal-200">
-                Subscribe to our newsletter and never miss out on exclusive
-                discounts, special offers
-              </p>
-              <div>
-                <fieldset className="relative w-full lg:w-72  ">
-                  <ButtonGroup>
-                    <input
-                      className="border-none outline-none py-2 pl-2 rounded-l-md border-[#CC3333]"
-                      placeholder="Enter Your Email"
-                    />
-                    <Button
-                      position="end"
-                      className="bg-[#CC3333] hover:bg-metal-600"
-                    >
-                      Subscribe
-                    </Button>
-                  </ButtonGroup>
-                </fieldset>
-              </div>
-            </footer>
-          </div>
+                <FaInstagram />
+                Facebook
+              </Link>
+              <Link
+                to="https://www.linkedin.com/"
+                className="flex items-center gap-2 hover:text-error-400 hover:underline"
+              >
+                <FaLinkedin />
+                LinkedIn
+              </Link>
+              <Link
+                to="https://x.com/"
+                className="flex items-center gap-2 hover:text-error-400 hover:underline"
+              >
+                <FaTwitter />
+                Twitter
+              </Link>
+              <Link
+                to="https://youtube.com/"
+                className="flex items-center gap-2 hover:text-error-400 hover:underline"
+              >
+                <FaYoutube />
+                Youtube
+              </Link>
+            </ul>
+          </footer>
+          <footer className="w-full lg:w-1/3 mx-auto space-y-3">
+            <h4
+              className={`mb-3 text-body-3 text-xl font-semibold text-white dark:text-white `}
+            >
+              Subscribe
+            </h4>
+            <p className="text-metal-200">
+              Subscribe to our newsletter and never miss out on exclusive
+              discounts, special offers
+            </p>
+            <div>
+              <fieldset className="relative w-full lg:w-72  ">
+                <ButtonGroup>
+                  <input
+                    className="border-none outline-none py-2 pl-2 rounded-l-md border-[#CC3333]"
+                    placeholder="Enter Your Email"
+                  />
+                  <Button
+                    position="end"
+                    className="bg-[#CC3333] hover:bg-metal-600"
+                  >
+                    Subscribe
+                  </Button>
+                </ButtonGroup>
+              </fieldset>
+            </div>
+          </footer>
         </div>
       </div>
       <div className={`border-t border-t-metal-400 py-5 text-cente `}>
