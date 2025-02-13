@@ -14,14 +14,16 @@ import {
 const OurTeam = () => {
   const [members, setMember] = useState([]);
   useEffect(() => {
-    axios.get(`../../../public/member.json`).then((res) => setMember(res.data));
+    axios
+      .get(`${import.meta.env.VITE_API_URL}/members`)
+      .then((res) => setMember(res.data));
   }, []);
   return (
     <div className="bg-white pt-10 ">
       <div>
         <Title
           title="Top 3 Team Member"
-          subTitel="Our Special Menu features the top-rated dishes, chosen by our happy customers. Don't miss out on these delicious favorite"
+          subTitel="Meet our top team members who bring expertise, creativity, and commitment to making Bangla Bhoj a place of exceptional taste and hospitality."
         ></Title>
       </div>
       <div className="w-11/12 lg:w-5/6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center py-12 gap-6">
