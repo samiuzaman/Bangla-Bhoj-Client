@@ -16,6 +16,7 @@ import {
   EmptyImage,
   EmptyTitle,
   EmptyDescription,
+  Spinner,
 } from "keep-react";
 import { FaSearch } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
@@ -70,6 +71,14 @@ const AllMenu = () => {
     setAllMenu(data);
     navigate("/all-menu");
   };
+
+  if (allMenu.length === 0) {
+    return (
+      <div className="h-screen w-full flex justify-center items-center">
+        <Spinner color="secondary" />
+      </div>
+    );
+  }
   return (
     <div className="w-11/12 lg:w-5/6 mx-auto py-12">
       <Helmet>
@@ -121,30 +130,32 @@ const AllMenu = () => {
           </Button>
         </div>
       </div>
-      {allMenu?.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8 justify-items-center">
-          {allMenu?.map((menu) => (
-            <CardItem key={menu?._id} data={menu}></CardItem>
-          ))}
-        </div>
-      ) : (
-        <Empty classID="">
-          <EmptyImage>
-            <img
-              src="https://staticmania.cdn.prismic.io/staticmania/499b23f3-41ed-4bc9-a9eb-43d13779d2f8_Property+1%3DSad+screen_+Property+2%3DSm.svg"
-              height={234}
-              width={350}
-              alt="404"
-            />
-          </EmptyImage>
-          <EmptyTitle className="mb-[14px] my-6 text-error-600 ">
-            {location?.search.substring(10)} item is not available
-          </EmptyTitle>
-          <Link to="/">
-            <Button color="secondary">Go to home</Button>
-          </Link>
-        </Empty>
-      )}
+      <div>
+        {allMenu?.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8 justify-items-center">
+            {allMenu?.map((menu) => (
+              <CardItem key={menu?._id} data={menu}></CardItem>
+            ))}
+          </div>
+        ) : (
+          <Empty classID="">
+            <EmptyImage>
+              <img
+                src="https://staticmania.cdn.prismic.io/staticmania/499b23f3-41ed-4bc9-a9eb-43d13779d2f8_Property+1%3DSad+screen_+Property+2%3DSm.svg"
+                height={234}
+                width={350}
+                alt="404"
+              />
+            </EmptyImage>
+            <EmptyTitle className="mb-[14px] my-6 text-error-600 ">
+              {location?.search.substring(10)} item is not available
+            </EmptyTitle>
+            <Link to="/">
+              <Button color="secondary">Go to home</Button>
+            </Link>
+          </Empty>
+        )}
+      </div>
     </div>
   );
 };

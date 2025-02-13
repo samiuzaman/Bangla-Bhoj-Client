@@ -8,7 +8,7 @@ const Slide = ({ image, off, title, text, id }) => {
     <div className="w-full bg-bannerBg bg-center bg-cover h-[38rem] ">
       <div className="flex flex-col lg:flex-row items-center justify-evenly w-full h-full mt-8">
         <div className="w-full lg:w-1/2 px-14 space-y-3">
-          <h3 className="text-3xl font-semibold text-[#fbc531] lg:text-4xl">
+          <h3 className="text-2xl font-semibold text-[#fbc531] lg:text-4xl">
             {title}
           </h3>
           <p className="text-amber-50">{text}</p>

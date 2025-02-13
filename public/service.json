@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "https://cafeu-nextjs.netlify.app/img/icon/3-1.png",
+    "title": "Fresh Healthy Food",
+    "description": "We serve fresh and nutritious meals made with high-quality ingredients to ensure a healthy and delicious dining experience."
+  },
+  {
+    "icon": "https://cafeu-nextjs.netlify.app/img/icon/3-2.png",
+    "title": "Delicious Homemade Dishes",
+    "description": "Enjoy the warmth of home-cooked meals with our special homemade dishes, crafted with love and traditional flavors."
+  },
+  {
+    "icon": "https://cafeu-nextjs.netlify.app/img/icon/3-3.png",
+    "title": "Gourmet Dining Experience",
+    "description": "Experience fine dining with our gourmet menu, offering a fusion of authentic Bengali cuisine and modern culinary excellence."
+  },
+  {
+    "icon": "https://cafeu-nextjs.netlify.app/img/icon/3-4.png",
+    "title": "Farm-to-Table Freshness",
+    "description": "We source fresh ingredients directly from local farms, ensuring high-quality, organic, and flavorful meals in every bite."
+  },
+  {
+    "icon": "https://cafeu-nextjs.netlify.app/img/icon/3-5.png",
+    "title": "Mouthwatering Culinary",
+    "description": "Indulge in a variety of expertly crafted dishes, combining traditional flavors with innovative cooking techniques for a delightful experience."
+  },
+  {
+    "icon": "https://cafeu-nextjs.netlify.app/img/icon/3-6.png",
+    "title": "Exquisite Dessert Delights",
+    "description": "Satisfy your sweet cravings with our selection of handcrafted desserts, made with the finest ingredients for a perfect finish to your meal."
+  }
+]
